@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zkeffort.github.io/"/>
-  <updated>2019-05-14T12:13:38.331Z</updated>
+  <updated>2019-05-14T12:16:53.765Z</updated>
   <id>http://zkeffort.github.io/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <title></title>
     <link href="http://zkeffort.github.io/2019/05/14/1/"/>
     <id>http://zkeffort.github.io/2019/05/14/1/</id>
-    <published>2019-05-14T12:13:38.330Z</published>
-    <updated>2019-05-14T12:13:38.331Z</updated>
+    <published>2019-05-14T12:16:53.765Z</published>
+    <updated>2019-05-14T12:16:53.765Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://wx2.sinaimg.cn/large/006HV4dGgy1g313lc17zpj30et08cdg4.jpg" alt="下载"></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="//zkeffort.github.io/2019/05/14/1/large/006HV4dGgy1g313lc17zpj30et08cdg4.jpg" alt="下载"></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;https://wx2.sinaimg.cn/large/006HV4dGgy1g313lc17zpj30et08cdg4.jpg&quot; alt=&quot;下载&quot;&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&quot;//zkeffort.github.io/2019/05/14/1/large/006HV4dGgy1g313lc17zpj30et08cdg4.jpg&quot; alt=&quot;下载&quot;&gt;&lt;/p&gt;
 
       
     
@@ -40,10 +40,10 @@
   
   <entry>
     <title>GitHub Pages 个人博客搭建</title>
-    <link href="http://zkeffort.github.io/2019/03/24/GitHub%20Pages%20%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-    <id>http://zkeffort.github.io/2019/03/24/GitHub Pages 个人博客搭建/</id>
-    <published>2019-03-24T03:40:54.115Z</published>
-    <updated>2019-03-24T03:40:54.118Z</updated>
+    <link href="http://zkeffort.github.io/2019/05/14/GitHub%20Pages%20%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    <id>http://zkeffort.github.io/2019/05/14/GitHub Pages 个人博客搭建/</id>
+    <published>2019-05-14T12:16:32.194Z</published>
+    <updated>2019-05-14T12:16:32.195Z</updated>
     
     <content type="html"><![CDATA[<h2 id="GitHub-Pages-间介"><a href="#GitHub-Pages-间介" class="headerlink" title="GitHub Pages 间介"></a>GitHub Pages 间介</h2><p>对于程序员来说，GitHub的代码托管和开源协作相当便捷，因此它在程序员的心中占有重要的地位。而GitHub提供了一个静态网页的功能，方便使用者进行项目推广和个人博客的搭建，这就是GitHub Pages。</p><hr><h2 id="所需工具"><a href="#所需工具" class="headerlink" title="所需工具"></a>所需工具</h2><ol><li><p>GitHub账号（没有的请先注册~）</p></li><li><p>git (可从官网 <a href="https://git-scm.com" target="_blank" rel="noopener">https://git-scm.com</a> 进行下载，但由于是国外服务器的原因，下载速度巨慢。建议选择自己版本后复制下载链接，使用第三方下载工具进行下载）</p></li><li><p>html文件（用于展示内容）</p></li></ol><hr><h2 id="创建步骤"><a href="#创建步骤" class="headerlink" title="创建步骤"></a>创建步骤</h2><ol><li>登入自己的GitHub账号，点击加号并选择New repository。</li></ol><p><img src="http://wx4.sinaimg.cn/large/006HV4dGgy1g19h02lbyyj30k2085t94.jpg" alt="image1"></p><ol start="2"><li>Repository name下输入：‘你的GitHub名字’+‘.github.io’,例如Zkeffort.github.io。</li></ol><p>注：这里一定要用你的GitHub账户名字，这样以后你的博客访问地址就是‘你的GitHub名字.github.io’。当然，你也可以购买一个域名并指向你的GitHub仓库，并通过此域名来访问博客。</p><p><img src="http://wx1.sinaimg.cn/large/006HV4dGgy1g19hak83yaj30ok0kawfk.jpg" alt="image2"></p><p>勾选Initialize this repository with a README生成阅读文件，然后点击Create repository进行创建。</p><ol start="3"><li>创建完成后你会进入如下画面，这里点击Settings。</li></ol><p><img src="http://wx3.sinaimg.cn/large/006HV4dGgy1g19hqn09k2j30t80avq3n.jpg" alt="image3"></p><p><img src="http://wx2.sinaimg.cn/large/006HV4dGgy1g19hthfia0j30s10c1wf4.jpg" alt="image4"></p><ol start="4"><li>下滑找到GitHub Pages配置，选择master branch分支。</li></ol><p><img src="http://wx4.sinaimg.cn/large/006HV4dGgy1g19i0zfbrqj30l00h1aao.jpg" alt="image5"></p><p>你会发现如下内容：</p><blockquote><p>Your site is ready to be published at <a href="http://zkblog.xyz/ZkeffortDemo.github.io/" target="_blank" rel="noopener">http://zkblog.xyz/ZkeffortDemo.github.io/</a>.</p></blockquote><p>这就是你的博客将来的访问地址。</p><hr><p>接下来你就可以通过git这一工具建立与GitHub仓库的连接，并将本地html和其他网页文件上传到GitHub中去，以便更新自己的博客内容。有关git的命令请自行查找，在此不多赘述。</p><p>至于博客的主题，推荐大家使用hexo这一框架，支持一键部署，而且具有丰富的主题库和插件库，使用起来非常方便。</p>]]></content>
     
