@@ -1,30 +1,105 @@
 body
 {
-	background-color: white;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin: 0;
+	background: #454545;
+	color: #eee;
 }
 
-h1
+a
 {
-	color: black;
+	text-decoration: none;
+	color: #eee;
 }
 
-#header
+.side-bar
 {
-	height: 50px;
+	position: fixed;
+	float: left;
+	background-color: #454545;
+	width: 15%;
+}
+.side-bar > *
+{
+	padding: 10px 15px;
 }
 
-#content
+.side-bar .nav a
 {
-	height: 500px;
-	margin-top: 30px;
-	margin-bottom: 20px;
+	font-weight: 700;
 }
 
-#footer
+.side-bar .nav a,
+.side-bar .tag-list a
 {
+	display: block;
+	padding: 5px;
+	color: #999;
+	transition: color 200ms;
+}
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover
+{
+	color: #eee;
+}
+
+.main
+{
+	float: right;
+	width: 85%;
+	line-height: 1.7;
+	color: #454545;
+}
+
+.header .logo
+{
+	margin-bottom: 5px;
+	color: #eee;
+	padding: 10px 20px;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.article-list
+{
+	margin-right: 0;
+	background: #fff;
+	padding: 20px 30px;
+}
+
+.article-list .item
+{
+	margin-bottom: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
 	text-align: center;
 }
 
+.article-list .item .title
+{
+	font-size: 22px;
+	font-weight: 700;
+	color: #454545;
+}
+
+.article-list .item .status
+{
+	font-size: 13px;
+	color: #ccc;
+}
+
+.article-list .item > *
+{
+	margin: 10px 0;
+}
+
+.article-list .item .content
+{
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	text-align: left;
+}
 
