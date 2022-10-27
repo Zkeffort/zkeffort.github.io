@@ -48,7 +48,7 @@ body > *
 
 .up-bar .main-nav
 {
-	margin-left: 68%;
+	margin-left: 330px;
 	margin-top: -23px;
 }
 
@@ -118,6 +118,11 @@ body > *
 	width: 100%;
 }
 
+@media all and (max-width: 600px)
+{
+	.up-bar input {width: 25%;}
+	.up-bar .main-nav {margin-left: 53%;}
+}
 
 @media all and (min-width: 600px) 
 {
@@ -132,9 +137,3 @@ body > *
     .right-bar {order: 3;}
     .copyright {order: 4;}
 }
-
-
-
-
-
-
