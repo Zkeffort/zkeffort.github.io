@@ -118,9 +118,10 @@ body > *
 	width: 100%;
 }
 
-@media all and (max-width: 600px)
+
+@media all and (max-width: 480px)
 {
-	.up-bar input {width: 25%;}
+	.up-bar input {width: 20%; margin-left: 70px;}
 	.up-bar .main-nav {margin-left: 53%;}
 }
 
@@ -137,3 +138,8 @@ body > *
     .right-bar {order: 3;}
     .copyright {order: 4;}
 }
+
+
+
+
+
