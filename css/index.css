@@ -1,4 +1,4 @@
-html body
+html, body
 {
 	height: 100%;
 }
@@ -294,10 +294,3 @@ body
     .right-bar {order: 3;}
     .copyright {order: 4;}
 }
-
-
-
-
-
-
-
