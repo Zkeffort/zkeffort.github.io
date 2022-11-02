@@ -136,13 +136,11 @@ body
 {
 	position: sticky;
 	top: 0;
-	max-height: 100vh;
 }
 
 .left-bar .content 
 {
 	background-color: #ffffff;
-	min-height: 200px;
 	padding: 55px 0 0;
 	margin: 0 10%;
 	position: relative;
