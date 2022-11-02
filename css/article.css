@@ -26,33 +26,19 @@ body
 {
 	height: 60px;
 	background-color: #24292f;
-	padding: 14px 40px;
+	padding: 14px 2.5%;
 	position: relative;
 }
 
 
-.up-bar #list
-{
-	height: 20px;
-	float: left;
-	border-radius: 2px;
-	margin-right: 2%;
-	margin-top: 6px;
-	background-color: #ffffff;
-}
-
-.up-bar #list:hover
-{
-	background-color: #8c959f;
-}
-
-.up-bar #giticon 
+.up-bar #giticon
 {
 	height: 32px;
 	width: 32px;
-	border-radius: 50%;
-	float: right;
-	background-color: #ffffff;
+	border-radius: 100%;
+	background-color: white;
+	float: left;
+	margin-right: 2%;
 }
 
 .up-bar input
@@ -97,18 +83,22 @@ body
 	position: relative;
 	margin-top: 0px;
 	min-width: 50%;
-	background-color: #f6f8fa;
 	padding-bottom: 50px;
+}
+
+.article-list .article > *
+{
+	margin: 20px 35px;
 }
 
 .article-list .article 
 {
-	min-height: 100px;
-	margin: 20px 0;
+	min-height: 100vh;
+	margin-bottom: 20px;
 	background-color: #ffffff;
-	text-align: left;
+	text-align: center;
 	position: relative;
-	padding-top: 25px;
+	padding-top: 45px;
 	padding-bottom: 46px;
 	border-style: solid;
 	border-width: 1px;
@@ -119,7 +109,7 @@ body
 .article-list .article .title
 {
 	text-decoration: none;
-	font-size: 2.1em;
+	font-size: 3.0em;
 	font-family: KaiTi;
 	color: #19537d;
 	letter-spacing: 1px;
@@ -127,48 +117,20 @@ body
 
 .article-list .article .status
 {
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-family: FangSong;
 }
 
 .article-list .article .content
 {
 	color: #24292f;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	font-weight: 300;
-	font-family: FangSong;
+	font-family: KaiTi;
 	letter-spacing: 1px;
-	display: -webkit-box;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+	margin-top: 60px;
 }
 
-.article-list .article .readmore
-{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	background-color: #f6f8fa;
-	font-weight: 500;
-	padding: 3px 10px;
-	font-size: 1em;
-	text-decoration: none;
-	color: #24292f;
-	border: 1px solid #218bff;
-	border-radius: 4px;
-}
-
-.article-list .article .readmore:hover {
-	background-color: #218bff;
-	color: #ffffff;
-}
-
-.article-list .article > *
-{
-	margin: 20px 35px;
-}
 
 .left-bar
 {
@@ -179,11 +141,11 @@ body
 
 .left-bar .content 
 {
+	background-color: #ffffff;
 	min-height: 200px;
 	padding: 55px 0 0;
 	margin: 0 10%;
 	position: relative;
-	background-color: white;
 	border: 1px solid #d8dee4;
 	border-top: 0;
 	border-radius: 0 0 4px 4px;
@@ -290,41 +252,6 @@ body
 	100%{transform: rotateY(360deg);}
 }
 
-.article-list .pagination
-{
-	position: absolute;
-	bottom: 15px;
-	right: 0;
-	margin: 10px 0;
-}
-
-.article-list .pagination li
-{
-	float: left;
-	list-style-type: none;
-}
-
-.article-list .pagination li .active
-{
-	background-color: #218bff;
-	color: #ffffff;
-}
-
-.article-list .pagination li a 
-{
-	padding: 8px 16px;
-	text-decoration: none;
-	color: #24292f;
-	margin-left: 4px;
-	border: 1px solid #d8dee4;
-	border-radius: 4px 4px;
-	background-color: #ffffff;
-}
-
-.article-list .pagination li a:hover:not(.active)
-{
-	background-color: #ddd;	
-}
 
 .copyright
 {
@@ -333,14 +260,6 @@ body
 	margin-top: 50px;
 	padding-bottom: 20px;
 	width: 100%;
-}
-
-.copyright hr 
-{
-	width: 50%;
-	margin-bottom: 20px;
-	background-color: #d8dee4;
-	margin-left: 25%;
 }
 
 @media all and (max-width: 800px)
@@ -361,10 +280,4 @@ body
     .right-bar {order: 3;}
     .copyright {order: 4;}
 }
-
-
-
-
-
-
 
